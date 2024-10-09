@@ -1,55 +1,298 @@
-<!-- Demo navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
-  <div class="container"><a href="#" class="navbar-brand"> <b>Navbar</b></a>
-    <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
-    <div id="navbarSupportedContent" class="collapse navbar-collapse">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active"><a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Link</a></li>
-        <li class="nav-item dropdown"><a id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Dropdown</a>
-          <div aria-labelledby="navbarDropdown" class="dropdown-menu"><a href="#" class="dropdown-item">Action</a><a href="#" class="dropdown-item">Another action</a>
-            <div class="dropdown-divider"></div><a href="#" class="dropdown-item">Something else here</a>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  		<title>Highway - Free CSS Template</title>
+<!-- 
+
+Highway Template
+
+https://templatemo.com/tm-520-highway
+
+-->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/light-box.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="index.html">High<em>way</em></a>
+        </div>
+        <div class="menu-icon">
+        <span></span>
+      </div>
+    </nav>
+
+    <div id="video-container">
+        <div class="video-overlay"></div>
+        <div class="video-content">
+            <div class="inner">
+              <h1>Welcome to <em>Highway</em></h1>
+              <p>FREE CSS TEMPLATE by templatemo</p>
+              <p>Homepage with full-width image gallery</p>
+                <div class="scroll-icon">
+                    <a class="scrollTo" data-scrollTo="portfolio" href="#"><img src="img/scroll-icon.png" alt=""></a>
+                </div>    
+            </div>
+        </div>
+        <video autoplay="" loop="" muted>
+        	<source src="highway-loop.mp4" type="video/mp4" />
+        </video>
+    </div>
+
+
+    <div class="full-screen-portfolio" id="portfolio">
+        <div class="container-fluid">
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="img/big_portfolio_item_4.png" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>Biodiesel <em>squid</em></h1>
+                                <p>Awesome Subtittle Goes Here</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="img/portfolio_item_4.png">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="img/big_portfolio_item_2.png" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>raclette <em>taxidermy</em></h1>
+                                <p>Awesome Subtittle Goes Here</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="img/portfolio_item_2.png">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="img/big_portfolio_item_3.png" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>humblebrag <em>brunch</em></h1>
+                                <p>Awesome Subtittle Goes Here</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="img/portfolio_item_3.png">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="img/big_portfolio_item_1.png" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>Succulents <em>chambray</em></h1>
+                                <p>Awesome Subtittle Goes Here</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="img/portfolio_item_1.png">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="img/big_portfolio_item_5.png" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>freegan <em>aesthetic</em></h1>
+                                <p>Awesome Subtittle Goes Here</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="img/portfolio_item_5.png">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="img/big_portfolio_item_6.png" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>taiyaki <em>vegan</em></h1>
+                                <p>Awesome Subtittle Goes Here</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="img/portfolio_item_6.png">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="img/big_portfolio_item_7.png" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>Thundercats <em>santo</em></h1>
+                                <p>Awesome Subtittle Goes Here</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="img/portfolio_item_7.png">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="img/big_portfolio_item_8.png" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>wayfarers <em>yuccie</em></h1>
+                                <p>Awesome Subtittle Goes Here</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="img/portfolio_item_8.png">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+            	<div class="portfolio-item">
+                	<a href="img/big_portfolio_item_9.png" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>disrupt <em>street</em></h1>
+                                <p>Awesome Subtittle Goes Here</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="img/portfolio_item_9.png">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <p>Copyright &copy; 2018 Company Name 
+    
+    | Designed by TemplateMo</p>
+            </div>
+        </div>
+    </footer>
+
+
+      <!-- Modal button -->
+    <div class="popup-icon">
+      <button id="modBtn" class="modal-btn"><img src="img/contact-icon.png" alt=""></button>
+    </div>  
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <!-- Modal Content -->
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h3 class="header-title">Say hello to <em>Highway</em></h3>
+          <div class="close-btn"><img src="img/close_contact.png" alt=""></div>    
+        </div>
+        <!-- Modal Body -->
+        <div class="modal-body">
+          <div class="col-md-6 col-md-offset-3">
+            <form id="contact" action="" method="post">
+                <div class="row">
+                    <div class="col-md-12">
+                      <fieldset>
+                        <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="btn">Send Message Now</button>
+                      </fieldset>
+                    </div>
+                </div>
+            </form>
           </div>
-        </li>
-        <li class="nav-item"><a href="#" tabindex="-1" aria-disabled="true" class="nav-link disabled">Disabled</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!-- End -->
-
-
-<!-- Background video -->
-<div class="video-background-holder">
-  <div class="video-background-overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="prol.mp4">
-    </video>
-  <div class="video-background-content container h-100">
-    <div class="d-flex h-100 text-center align-items-center">
-      <div class="w-100 text-white">
-        <h1 class="display-4">Bootstrap video background</h1>
-        <p class="lead mb-0">With HTML5 Video and Bootstrap 4</p>
-        <p class="lead">Snippet by <a href="https://bootstrapious.com/snippets" class="text-white">
-                    <u>Bootstrapious</u></a>
-        </p>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-<!-- End -->
 
+    
 
-<!-- For demo purpose -->
-<section class="py-5">
-  <div class="container py-5">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <p class="lead">The whole content is wrapped into <code>.video-background-holder</code>, this class is mainly used to set the content dimensions, location and the fallback background in case the browser doesn't support the video format.</p>
-        <p class="lead">Change your video source from <code>source</code> tag, and the overlay color from <code>.video-background-overlay</code>.</p>
-        <p class="lead">The content text wrapped into <code>.video-background-content</code> is vertically centered using flex utilities.</p>
+    <section class="overlay-menu">
+      <div class="container">
+        <div class="row">
+          <div class="main-menu">
+              <ul>
+                  <li>
+                      <a href="index.html">Home - Full-width</a>
+                  </li>
+                  <li>
+                      <a href="masonry.html">Home - Masonry</a>
+                  </li>
+                  <li>
+                      <a href="grid.html">Home - Small-width</a>
+                  </li>
+                  <li>
+                      <a href="about.html">About Us</a>
+                  </li>
+                  <li>
+                      <a href="blog.html">Blog Entries</a>
+                  </li>
+                  <li>
+                      <a href="single-post.html">Single Post</a>
+                  </li>
+              </ul>
+              <p>We create awesome templates for you.</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
-<!-- End -->
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+    
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    
+</body>
+</html>
